@@ -1,0 +1,164 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="images/JH.ico">
+        <title>My demo page (About Me)</title>
+
+        <!-- import bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        
+        <!-- Import font-awesome CSS file -->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        
+        <!-- For this web to customize -->
+        <style type="text/css">
+        body {
+            padding-top: 5rem;
+        }
+        
+        .media {
+            padding: 1rem 3rem;
+        }
+
+        .container {
+            padding: 0rem 3rem;
+        }
+
+        .col-md-4{
+            text-align: center;
+            margin-bottom: 2em;
+        }
+
+        .mytitle {
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+        .gray{
+            color: rgb(105, 105, 105)
+        }
+        .gray a {
+            color: #999999;
+        }
+        .mastfoot {
+            padding: 10rem 1.5rem;
+            text-align: center;
+        }
+
+        ul.icons {
+            cursor: default;
+            list-style: none;
+            vertical-align: baseline;
+        }
+
+        .icon:before {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: none !important;
+            font-size: 2em;
+        }
+
+        ul.icons li{
+            display: inline-block;
+            padding: 0 2em 0 0;
+        }
+
+        #footer .copyright {
+            font-size: 0.9em;
+        }
+
+        #footer .copyright .icons a {
+            display: block;
+            box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 4px #fff, 0px 0px 0px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 100%;
+            width: 3em;
+            height: 3em;
+            line-height: 3em;
+            color: #999999;
+            text-decoration: none;
+        }
+
+        </style>
+    </head>
+    <body>
+        
+        <header>
+        <!-- Set Navigation Bar-->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="demo2.html">My Demo Website</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="demo5.html">My Photos<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="demo6.html">My Videos</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="demo4.html">About Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+            <div class="mytitle">
+                <h1>About Me</h1>
+                <p class="lead gray"> An simple introduction of myself.</p>
+            </div>
+
+            <!-- Set container -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="rounded-circle" data-toggle="popover" data-placement="top" title="My name is Jeff Hsieh." data-content="Nice to meet you." src="images/P_photo.jpg" width="200" height="200" alt="Generic placeholder image">
+                    </div>
+                    <div class="col-md-8">
+                        <h5>My Motivation</h5>
+                        <p class="gray">I enjoy to take photos and videos on my daily life. So that I built this demo website with my photos and videos. Hope you will like it.</p>
+                        <h5>Goal</h5>
+                        <p class="gray">Current I practice skill about web design with bootstrap. Expect to become web developer.</p>
+                        <h5>Skills (Biild Website)</h5>
+                        <p class="gray">HTML, CSS, Javascript, JQuery, Bootstrap, PHP, MySQL</p>
+                        <h5>Contact Me</h5>
+                        <p class="gray">Linkedin: <a href="https://www.linkedin.com/in/min-chien-hsieh-30276142">Min-Chien Hsieh</a><br>Email: rj701@yahoo.com.tw</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Set Footer -->
+            <footer class="mastfoot" id="footer">
+                <div class="copyright">
+                    <ul class="icons">
+                        <li><a href="https://github.com/HsiehMinChien" class="icon fa-github"><span class="label"></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/min-chien-hsieh-30276142" class="icon fa-linkedin"><span class="label"></span></a></li>
+                    </ul>
+                </div>
+                <div class="inner">
+                    <p class="gray">Dome Website built by Jeff Hsieh.</p>
+                </div>
+            </footer>
+        </main>
+
+        <!-- import bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        
+        <script>
+            // For popover
+            $(document).ready(function(){
+                $('[data-toggle="popover"]').popover();   
+            });
+        </script>
+    
+    </body>
+</html>

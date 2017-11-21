@@ -30,3 +30,11 @@ http://jeffhsieh.byethost31.com/demo2.html
 ## How to build this system?
 
 Put those files into website host can build it successfully.
+
+## Reference
+
+Bootstrap: https://getbootstrap.com/      
+Magnific Popup: http://dimsemenov.com/plugins/magnific-popup/     
+Magnific Popup Github link: https://github.com/dimsemenov/Magnific-Popup      
+Font awesome: http://fontawesome.io/    
+Font awesome Github link: https://github.com/FortAwesome/Font-Awesome   
